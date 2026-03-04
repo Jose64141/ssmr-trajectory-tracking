@@ -1,0 +1,29 @@
+\begin{table}[]
+\scriptsize
+\centering
+\begin{tabular}{lcccccccc}
+ \textbf{} & \multicolumn{8}{c}{\textbf{posError}} \\ \hline 
+  & DDPG  & DDPG LSTM  & PPO  & PPO LSTM  & TD3  & TD3 LSTM  & SAC  & SAC LSTM \\ \hline  
+  \textbf{IAE} & 322.22  & 315.08  & 197.21  & 61.43  & 275.84  & 247.04  & 264.32  & 274.72  \\ \hline  
+  \textbf{ISE} & 284.53  & 284.09  & 226.76  & 126.59  & 264.97  & 256.32  & 262.60  & 261.06  \\ \hline  
+  \textbf{ITAE} & 169620.90  & 170091.79  & 108367.07  & 27170.39  & 150874.50  & 128151.04  & 146895.18  & 154577.17  \\ \hline  
+  \textbf{ITSE} & 5945.88  & 5941.66  & 4700.87  & 2296.72  & 5553.39  & 5221.56  & 5484.15  & 5576.58  \\ \hline
+ \textbf{} & \multicolumn{8}{c}{\textbf{thetaError}} \\ \hline 
+  & DDPG  & DDPG LSTM  & PPO  & PPO LSTM  & TD3  & TD3 LSTM  & SAC  & SAC LSTM \\ \hline  
+  \textbf{IAE} & 81.54  & 85.48  & 83.07  & 71.22  & 79.63  & 86.09  & 84.98  & 86.76  \\ \hline  
+  \textbf{ISE} & 86.99  & 92.12  & 97.09  & 91.66  & 85.54  & 89.61  & 92.77  & 92.18  \\ \hline  
+  \textbf{ITAE} & 28266.60  & 29819.33  & 29728.60  & 24596.59  & 27646.64  & 30914.72  & 30640.37  & 31550.79  \\ \hline  
+  \textbf{ITSE} & 1489.56  & 1634.50  & 1697.63  & 1568.41  & 1462.33  & 1598.33  & 1640.11  & 1645.20  \\ \hline
+ \textbf{} & \multicolumn{8}{c}{\textbf{linSpeedError}} \\ \hline 
+  & DDPG  & DDPG LSTM  & PPO  & PPO LSTM  & TD3  & TD3 LSTM  & SAC  & SAC LSTM \\ \hline  
+  \textbf{IAE} & 0.75  & 0.92  & 1.08  & 2.92  & 0.85  & 1.27  & 1.17  & 1.97  \\ \hline  
+  \textbf{ISE} & 5.89  & 8.65  & 11.79  & 22.85  & 8.05  & 12.81  & 13.03  & 17.41  \\ \hline  
+  \textbf{ITAE} & 112.15  & 157.32  & 188.90  & 911.08  & 131.65  & 288.99  & 282.83  & 610.19  \\ \hline  
+  \textbf{ITSE} & 80.81  & 128.02  & 167.96  & 375.87  & 109.98  & 195.39  & 207.63  & 287.58  \\ \hline 
+ \textbf{} & \multicolumn{8}{c}{\textbf{Control action total variation}} \\ \hline 
+  & DDPG  & DDPG LSTM  & PPO  & PPO LSTM  & TD3  & TD3 LSTM  & SAC  & SAC LSTM \\ \hline  
+  \textbf{\(v\)} & 1.22  & 1.10  & 4.03  & 75.65  & 1.44  & 1.05  & 2.22  & 46.48  \\ \hline  
+  \textbf{\(\omega\)} & 7.81  & 9.29  & 20.52  & 129.71  & 8.44  & 8.29  & 13.38  & 122.62  \\ \hline
+\end{tabular}
+\end{table}
+
